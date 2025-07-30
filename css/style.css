@@ -1,11 +1,16 @@
+:root{
+    --bg: #F4F4F4;
+    --bg-2: #353130;
+}
+
 /*Geral*/
 /*Barra de rolagem*/
 ::-webkit-scrollbar-track {
-    background-color: #F4F4F4;
+    background-color: var(--bg);
 }
 ::-webkit-scrollbar {
     width: 5px;
-    background: #F4F4F4;
+    background: var(--bg);
 }
 ::-webkit-scrollbar-thumb {
     background: #35313075;
@@ -20,8 +25,8 @@ hr.claro {
 }
 
 hr.escuro {
-    color: #353130;
-    background-color: #353130;
+    color: var(--bg-2);
+    background-color: var(--bg-2);
     height: 1px;
     width: 50px;
     margin-top: 90px;
@@ -51,7 +56,7 @@ div#image1{
 }
 
 .btn-outline-dark:hover{
-    background-color: #353130;
+    background-color: var(--bg-2);
 }
 
 /*Seção História*/
@@ -136,7 +141,7 @@ div#titutloalmocooujantar2{
 
 /*Pratos*/
 div#pratodiv{
-    color: #353130;
+    color: var(--bg-2);
     position: relative;
     margin-top: 15px;
     margin-right: 12px;
