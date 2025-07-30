@@ -3,6 +3,10 @@
     --bg-2: #353130;
 }
 
+html{
+    background: var(--bg-2);
+}
+
 /*Geral*/
 /*Barra de rolagem*/
 ::-webkit-scrollbar-track {
