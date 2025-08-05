@@ -1,5 +1,7 @@
 :root{
     --bg: #F4F4F4;
+    --cardapioback: #b3a9a1;
+    --cardapiocard: #e3e2e0;
     --bg-2: #353130;
 }
 
@@ -47,7 +49,7 @@ a:hover { color: #ffffff; }
 
 /*Seção Nosso Cardárpio Pagina Inicial*/
 div#image1{
-    background-image: url(../img/prato-1.jpg);
+    background-image: url(../img/pastel.jpg);
     background-repeat: no-repeat;
     background-position: center;
 	background-size: cover;
@@ -106,12 +108,13 @@ div#textofooter{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 /*Página de Cardápio*/
 /*Cardárpio Banner*/
 div#cardapiobanner{
-    background-image: url(../img/cardapio/cardapio-primary.png);
+    background-image: url(../img/cardapio/festa.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -171,5 +174,16 @@ div#prato1{
     height: 200px;
 }
 
+#nossocardapio .row:last-child .col{
+    margin-bottom: 20px;
+}
 
-/**/
+#autoSumir{
+        display: none;
+}
+
+@media screen and (min-width: 768px){
+    #autoSumir{
+        display: block;
+    }
+}
